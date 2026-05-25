@@ -49,3 +49,6 @@ train.py
 # Ignore entire model directory
 model/
 sentiment_project/model/
+
+# Random / large files
+sentiment_project/zivs5ACU
