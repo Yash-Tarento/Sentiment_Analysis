@@ -1,0 +1,51 @@
+# ========================
+# Data files
+# ========================
+*.csv
+*.parquet
+*.json
+
+# Explicit outputs
+cache_predictions.csv
+final_output.csv
+
+# ========================
+# Virtual environments ✅
+# ========================
+venv/
+env/
+ENV/
+source venv/
+
+# Environment files
+.env
+
+# ========================
+# Python
+# ========================
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# ========================
+# System files
+# ========================
+.DS_Store
+Thumbs.db
+
+bench.py
+dash.py
+eval.py
+inter.py
+train.py
+
+
+# Models
+*.pth
+*.bin
+*.safetensors
+*.zip
+
+# Ignore entire model directory
+model/
+sentiment_project/model/
